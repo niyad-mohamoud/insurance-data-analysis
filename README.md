@@ -20,14 +20,21 @@ This project analyses a car insurance dataset to answer three key questions usin
 - Visualization: matplotlib, seaborn  
 - Machine Learning: scikit-learn (DecisionTreeRegressor)  
 
-**Project Structure:**  
 
-**Key Outcomes:**  
-- Identified trends in claim likelihood by age and gender  
-- Observed how claim value relates to age and distance from London  
-- Noted outliers and anomalies in the dataset for further insight  
+**Project Structure:**
+- `Q1.py` — Analyses claim probabilities by gender and age group.
+- `Q2.py` — Uses decision tree regression to explore claim value in relation to customer age.
+- `Q3.py` — Calculates geographical distances from London using postcode coordinates and the Haversine formula, then analyses claim value against distance.
+- `README.md` — Project overview, methodology and instructions.
+
+**Key Outcomes:**
+- Analysed claim frequency across gender groups and age bands.
+- Explored the relationship between customer age and claim value using decision tree regression.
+- Investigated geographical distance from London in relation to claim value.
+- Evaluated model predictions using Mean Absolute Error (MAE) and visualised actual values, predicted values and potential outliers.
+nsight  
 
 **How to Run:**  
 1. Clone the repository.  
 2. Install required libraries: `pip install pandas numpy matplotlib seaborn scikit-learn openpyxl`  
-3. Run the Python scripts in `scripts/` folder to reproduce the analysis.
+3. Run Q1.py, Q2.py and Q3.py from the repository's root directory.
